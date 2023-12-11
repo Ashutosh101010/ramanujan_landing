@@ -1,7 +1,6 @@
-import { Image } from "./image";
 import React from "react";
 
-export const VissionMission = (props) => {
+export const VissionMission = () => {
   return (
     <div id="vissionmission" className="text-center">
       <div className="row" style={{ padding: '15rem 0 15rem 0', background: "#93351A", color: "#fff" }}>
@@ -12,11 +11,7 @@ export const VissionMission = (props) => {
         </div>
         <div className="col-xs-12 col-md-8 col-lg-7">
           <p style={{ fontSize: "20px" }} id="vissionmission-paragraph">
-            The Vision and Mission of both the Directors are to do work on the theme of Super- 30.
-
-            They are Committed to do Rulfill Hard work Consistently, and ful-fill dream to of Indore. make it Super-30
-
-            They are most experienced in our field (subjects). They spent Most of the time as a role of Leader in Biggest Coachings. of SET-JEE/NEET in India (kota).
+            The vision and mission of both directors are to work on the theme of Super-30. They are committed to fulfilling hard work consistently and realizing the dream of Indore, making it Super-30. They are highly experienced in their field (subjects) and have spent most of their time in leadership roles in the biggest coaching centers for IIT-JEE/NEET in India, particularly in Kota.
           </p>
         </div>
       </div>

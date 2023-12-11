@@ -1,6 +1,7 @@
 import React from "react";
 
-export const Director = (props) => {
+export const Director = () => {
+
   return (
     <div id="director">
       <div className="container">

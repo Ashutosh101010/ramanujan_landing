@@ -6,12 +6,12 @@ export const EklavyaClass = () => {
         <div id="eklavya" style={{ padding: '15rem 0 15rem 0', background: "#93351A", color: "#fff" }}>
             <div className="container">
                 <div className="row">
-                    <div className="col-xs-12 col-md-5">
+                    <div className="col-xs-12 col-md-5" style={{ background: "#fff", padding: "40px" }}>
                         {" "}
                         <img src="img/Eklavya PNG Logo.png" className="img-responsive" alt="" />{" "}
                     </div>
                     <div className="col-xs-12 col-md-7">
-                        <div className="about-text">
+                        <div className="about-text" style={{ marginLeft: "40px" }}>
                             <h3 className="founder-name" style={{ marginTop: "30px", color: "#fff" }}>EKLAVYA is a revolution in school education;</h3>
                             <p>
                                 in fact education at all levels. EKLAVYA prepares a

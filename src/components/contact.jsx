@@ -1,36 +1,8 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
-export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+export const Contact = () => {
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
   return (
     <div>
       <div id="contact">
@@ -45,7 +17,7 @@ export const Contact = (props) => {
               </div>
               <div className="row">
                 <div className="col-md-6">
-                  <img src="img/IMG_20200421_125416_530.jpg" style={{ width: "350px", height: "300px", padding: "20px", borderRadius: "30px" }} />
+                  <img src="img/IMG_20200421_125416_530.jpg" style={{ width: "100%", height: "300px", padding: "20px", borderRadius: "30px" }} alt="" />
                 </div>
               </div>
             </div>
@@ -66,7 +38,8 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                9977777764
+                <a href={`tel:${9977777764}`} target="_blank" style={{ cursor: "pointer", color: "#fff" }} rel="noreferrer">9977777764</a>
+
               </p>
             </div>
             <div className="contact-item">
@@ -83,22 +56,22 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={"https://www.facebook.com/Ramanujan777?mibextid=2JQ9oc"} target="_blank">
+                    <a href={"https://www.facebook.com/Ramanujan777?mibextid=2JQ9oc"} target="_blank" rel="noreferrer">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={"https://instagram.com/ramanujanjeeacademy?igshid=OGQ5ZDc2ODk2ZA=="} target="_blank">
+                    <a href={"https://instagram.com/ramanujanjeeacademy?igshid=OGQ5ZDc2ODk2ZA=="} target="_blank" rel="noreferrer">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={"https://youtube.com/@kotakipathshala6521?si=gSL1PNPz_uL5J3ZN"} target="_blank">
+                    <a href={"https://youtube.com/@kotakipathshala6521?si=gSL1PNPz_uL5J3ZN"} target="_blank" rel="noreferrer">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
+                    <a href={"https://api.whatsapp.com/send/?phone=9977777764&text=Hi+Team%2C+is+there+any+related+service+available+%3F&type=phone_number&app_absent=0"} target="_blank" rel="noreferrer">
                       <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>

@@ -3,7 +3,6 @@
     padding: 20px;
     width: 100%;
   }
-  #director,
   #courses,
   #testimonials,
   #videos,
@@ -32,5 +31,16 @@
   .call-now-btn{
     text-align: center !important;
     margin-right: 0 !important;
+  }
+  .logo-image{
+    width: 100px !important;
+    padding-left: 15px;
+  }
+  .page-scroll{
+   /* float: left; */
+   height: 50px;
+   padding: 15px 15px;
+   line-height: 20px;
+   font-size: 18px;
   }
 }

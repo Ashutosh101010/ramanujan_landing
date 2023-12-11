@@ -505,7 +505,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 100px 0 0;
   background: #290404;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -663,6 +663,13 @@ label {
 }
 #vissionmission-paragraph { 
   text-align: left;
+}
+.calling-floating-btn{
+  background: white;
+    font-size: 30px;
+    padding: 13px 16px;
+    border-radius: 50%;
+    color: blue;
 }
 @media (max-width: 768px) {
   #director img {

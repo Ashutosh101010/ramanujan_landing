@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
 import { Founder } from "./components/founder";
-import { Director } from "./components/director";
 import { Courses } from "./components/courses";
 import { VissionMission } from "./components/vissionMission";
-import { Testimonials } from "./components/testimonials";
 import { Videos } from "./components/videos";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { CarouselSlider } from "./components/carousel";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { EklavyaClass } from "./components/eklavya";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
