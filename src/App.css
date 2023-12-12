@@ -43,4 +43,12 @@
    line-height: 20px;
    font-size: 18px;
   }
+  #mobile-view{
+    bottom: 15px !important;
+    align-items: flex-end;
+    left: 15px !important;
+    /* right: 0; */
+    display: block;
+    cursor: pointer;
+  }
 }

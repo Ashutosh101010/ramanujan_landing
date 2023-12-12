@@ -14,7 +14,7 @@ export const EklavyaClass = () => {
                         <div className="about-text" style={{ marginLeft: "40px" }}>
                             <h3 className="founder-name" style={{ marginTop: "30px", color: "#fff" }}>EKLAVYA is a revolution in school education;</h3>
                             <p>
-                                in fact education at all levels. EKLAVYA prepares a
+                                In fact education at all levels, EKLAVYA prepares a
                                 student for JEE Main / Advanced &amp; NEET within a school schedule ensuring top success in JEE Main/ Advanced &amp;
                                 NEET as well as XII board exams. What’s more, students don’t have to compromise on sports &amp; extra-curricular
                                 activities.

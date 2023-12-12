@@ -38,7 +38,8 @@ export const Contact = () => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                <a href={`tel:${9977777764}`} target="_blank" style={{ cursor: "pointer", color: "#fff" }} rel="noreferrer">9977777764</a>
+                <a href={`tel:${9977777764}`} target="_blank" style={{ cursor: "pointer", color: "#fff" }} rel="noreferrer">9977777764</a> <br />
+                <a href={`tel:${9826182863}`} target="_blank" style={{ cursor: "pointer", color: "#fff" }} rel="noreferrer">9826182863</a>
 
               </p>
             </div>

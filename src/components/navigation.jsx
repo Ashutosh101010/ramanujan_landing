@@ -5,7 +5,6 @@ import "react-whatsapp-chat-widget/index.css";
 
 export const Navigation = () => {
 
-
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -60,12 +59,14 @@ export const Navigation = () => {
           </ul>
         </div>
       </div>
-      <a className="whatsapp_widget_wrapper" href={`tel:${9977777764}`} target="_blank" style={{
-        bottom: "90px",
-        alignItems: "flex-end",
-        right: "15px",
-        cursor: "pointer"
-      }} rel="noreferrer">
+      <a className="whatsapp_widget_wrapper" id="mobile-view" href={`tel:${9977777764}`} target="_blank"
+        // style={{
+        //   bottom: "90px",
+        //   alignItems: "flex-end",
+        //   right: "15px",
+        //   cursor: "pointer"
+        // }} 
+        rel="noreferrer">
         <i className="fa fa-phone calling-floating-btn"></i>
       </a>
       <WhatsAppWidget

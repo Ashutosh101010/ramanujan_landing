@@ -16,7 +16,7 @@ export const Founder = () => {
                 <h2>Founder & Director</h2>
                 <h3 className="founder-name" style={{ marginTop: "30px" }}>Amit Kumar Sharma </h3>
                 <p>
-                  With a B. Tech degree from the National Institute of Technology (NIT), I bring a wealth of academic experience to the table. Having served as the Head of Vision Kota in Kota and the HOD of Mathematics at FIITJEE, I've honed my expertise over 18 years. My role as the All India Head in the Satellite Program, specializing in Live Classes for JEE Advanced, reflects my commitment to fostering educational excellence.
+                  With a B. Tech degree from the National Institute of Technology (NIT), I bring a wealth of academic experience to the table. Having served as the Head of Vision Kota in Kota and the HOD of Mathematics at FIITJEE, I've honed my expertise over 19 years. My role as the All India Head in the Satellite Program, specializing in Live Classes for JEE Advanced, reflects my commitment to fostering educational excellence.
                 </p>
               </div>
             </div>
@@ -33,7 +33,7 @@ export const Founder = () => {
                 <h2>Director</h2>
                 <h3 className="founder-name" style={{ marginTop: "30px" }}>Ankur Mam</h3>
                 <p>
-                  Armed with an M.Sc., M.Phil, and D. Pharma, I bring 17 years of experience to the realm of JEE Advanced and NEET examinations. My extensive expertise was cultivated through hands-on involvement at FIITJEE (SAL). This diverse experience uniquely positions me to contribute to the academic landscape, ensuring a holistic approach to education.
+                  Armed with an M.Sc., M.Phil, and D. Pharma, I bring 18 years of experience to the realm of JEE Advanced and NEET examinations. My extensive expertise was cultivated through hands-on involvement at FIITJEE (SAL). This diverse experience uniquely positions me to contribute to the academic landscape, ensuring a holistic approach to education.
                 </p>
               </div>
             </div>

@@ -671,8 +671,25 @@ label {
     border-radius: 50%;
     color: blue;
 }
+#mobile-view{
+  bottom: 90px;
+  align-items: flex-end;
+  right: 15px;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   #director img {
     margin: 50px 0;
+  }
+  #mobile-view{
+    bottom: 15px !important;
+    align-items: flex-end;
+    left: 15px !important;
+    /* right: 0; */
+    display: block;
+    cursor: pointer;
+  }
+  #vissionmission-paragraph{
+    margin-left: 20px;
   }
 }
