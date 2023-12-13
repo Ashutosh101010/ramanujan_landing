@@ -26,17 +26,13 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      {/* <Header data={landingPageData.Header} /> */}
       <CarouselSlider />
       <Founder data={landingPageData.About} />
-      {/* <Director data={landingPageData.About} /> */}
       <VissionMission data={landingPageData.Gallery} />
       <Courses data={landingPageData.Services} />
       <EklavyaClass />
       <Videos data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-
     </div>
   );
 };

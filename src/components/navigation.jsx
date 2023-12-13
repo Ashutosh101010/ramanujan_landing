@@ -25,7 +25,6 @@ export const Navigation = () => {
             <img src="img/Ramanujan PNG Logo.png" className="img-responsive logo-image" alt="" style={{ width: "160px" }} />
           </a>{" "}
         </div>
-
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
