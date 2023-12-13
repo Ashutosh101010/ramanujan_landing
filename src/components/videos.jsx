@@ -22,7 +22,7 @@ export const Videos = () => {
               <iframe
                 id="freekipathshala"
                 width={"100%"}
-                height={"700"}
+                height={"70%"}
                 src={embedUrl}
                 title="YouTube Video Player"
                 frameBorder="0"
