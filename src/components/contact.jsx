@@ -54,7 +54,7 @@ export const Contact = () => {
             <div className="contact-item">
               <p>
                 <span>
-                  <a href={"https://www.google.com/maps?q=22.718183517456055,75.88317108154297&z=17&hl=en"} rel="noreferrer" target="_blank" style={{ cursor: "pointer", color: "#fff" }}> <i className="fa fa-map-marker"></i> Visit Ramanuj </a>
+                  <a href={"https://www.google.com/maps?q=22.718183517456055,75.88317108154297&z=17&hl=en"} rel="noreferrer" target="_blank" style={{ cursor: "pointer", color: "#fff" }}> <i className="fa fa-map-marker"></i> Visit Ramanujan Academy </a>
                 </span>{" "}
               </p>
             </div>
