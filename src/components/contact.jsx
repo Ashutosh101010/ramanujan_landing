@@ -51,6 +51,14 @@ export const Contact = () => {
                 ramanujanjeeacademy@gmail.com
               </p>
             </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <a href={"https://www.google.com/maps?q=22.718183517456055,75.88317108154297&z=17&hl=en"} rel="noreferrer" target="_blank" style={{ cursor: "pointer", color: "#fff" }}> <i className="fa fa-map-marker"></i> Visit Ramanuj </a>
+                </span>{" "}
+              </p>
+            </div>
+
           </div>
           <div className="col-md-12">
             <div className="row">
@@ -76,6 +84,7 @@ export const Contact = () => {
                       <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
+
                 </ul>
               </div>
             </div>

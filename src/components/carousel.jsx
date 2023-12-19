@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Dialog } from "@mui/material";
 
 export const CarouselSlider = () => {
+
+    const [defaultModal, setDefaultModal] = useState(true)
     return (
         <div id="Carousle">
+
+            <Dialog open={defaultModal} onClose={() => setDefaultModal(false)} >
+                <img src="img/IMG-20220119-WA0026.jpg" className="" alt="" style={{ height: "593px" }} />
+            </Dialog>
             <Carousel autoPlay={true} showThumbs={false} dynamicHeight={true} infiniteLoop={true}>
                 <div>
                     <img src="img/google ad-2.jpg" />
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div>
-                    <img src="img/IMG_20190904_185753.jpg" />
+                    <img src="img/FB_IMG_1548390870939.jpg" />
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div>
@@ -19,7 +26,7 @@ export const CarouselSlider = () => {
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
                 <div>
-                    <img src="img/IMG_20180806_085019.jpg" />
+                    <img src="img/IMG-20231129-WA0000.jpg" />
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
