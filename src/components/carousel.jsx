@@ -25,12 +25,22 @@ export const CarouselSlider = () => {
                     <img src="img/3.jpg" />
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
-
                 <div>
-                    <img src="img/Screenshot_20181126-145219.png" />
-                    {/* <p className="legend">Legend 3</p> */}
+                    <img src="img/5.jpg" />
+                    {/* <p className="legend">Legend 2</p> */}
                 </div>
-
+                <div>
+                    <img src="img/IMG_20201104_134832.jpg" />
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
+                <div>
+                    <img src="img/IMG-20180516-WA0003.jpg" />
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
+                <div>
+                    <img src="img/Photo_1611806063257~2.png" />
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
 
                 <div>
                     <img src="img/google ad-2.jpg" />
