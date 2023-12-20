@@ -14,20 +14,27 @@ export const CarouselSlider = () => {
             </Dialog>
             <Carousel autoPlay={true} showThumbs={false} dynamicHeight={true} infiniteLoop={true}>
                 <div>
-                    <img src="img/google ad-2.jpg" />
-                    {/* <p className="legend">Legend 1</p> */}
+                    <img src="img/IMG-20231129-WA0000.jpg" />
+                    {/* <p className="legend">Legend 3</p> */}
                 </div>
                 <div>
-                    <img src="img/FB_IMG_1548390870939.jpg" />
+                    <img src="img/2.jpg" />
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
+                <div>
+                    <img src="img/3.jpg" />
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
+
                 <div>
                     <img src="img/Screenshot_20181126-145219.png" />
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
+
+
                 <div>
-                    <img src="img/IMG-20231129-WA0000.jpg" />
-                    {/* <p className="legend">Legend 3</p> */}
+                    <img src="img/google ad-2.jpg" />
+                    {/* <p className="legend">Legend 1</p> */}
                 </div>
             </Carousel>
         </div>
