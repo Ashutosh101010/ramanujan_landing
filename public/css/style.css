@@ -76,9 +76,11 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #272828;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+ border-bottom-left-radius: 65px;
+ border-bottom-right-radius: 65px;
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -90,14 +92,37 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
+  text-transform: initial;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  content: "";
+  transition: width 0.2s;
+}
+#whyfast.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  content: "";
+  transition: width 0.2s;
+}
+#testseries.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
   left: 0;
@@ -505,9 +530,11 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 0;
-  background: #290404;
+  /* padding: 100px 0 0; */
+  background: #272828;
   color: rgba(255, 255, 255, 0.75);
+  border-top-left-radius: 65px;
+  border-top-right-radius: 65px;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -530,13 +557,13 @@ header .intro-text {
   bottom: 0;
   left: 30px;
 }
-#contact h3 {
+/* #contact h3 {
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
-}
+} */
 #contact form {
   padding-top: 20px;
 }
@@ -606,11 +633,11 @@ label {
   margin-right: 10px;
 }
 #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  /* border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
-  margin-top: 50px;
-  text-align: center;
-  margin-bottom: 50px;
+  margin-top: 50px; */
+  /* text-align: center; */
+  /* margin-bottom: 50px; */
 }
 #contact .social ul li {
   display: inline-block;
@@ -618,12 +645,12 @@ label {
 }
 #contact .social i.fa {
   font-size: 22px;
-  width: 48px;
-  height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
+  /* width: 48px;
+  height: 48px;
+  border: 2px solid #fff; */
   color: #fff;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
@@ -661,6 +688,9 @@ label {
 #vissionmission{
   overflow: hidden;
 }
+#whyfast{
+  overflow: hidden;
+}
 #vissionmission-paragraph { 
   text-align: left;
 }
@@ -677,7 +707,18 @@ label {
   right: 15px;
   cursor: pointer;
 }
+
+.background-image-why{
+  display: none;
+}
+.button-hover:hover{
+  background-color: red !important;
+}
 @media (max-width: 768px) {
+  .mobile-accordian{
+    position: unset !important;
+    padding: 0px 20px 0px 20px;
+  }
   #director img {
     margin: 50px 0;
   }
@@ -691,5 +732,100 @@ label {
   }
   #vissionmission-paragraph{
     margin-left: 20px;
+  }
+  .select-option{
+    max-width: 100% !important;
+    width: 160px !important;
+  }
+  .first-section-img{
+    padding: 0 !important;
+  }
+  .whyfast-text{
+    font-size: 20px !important;
+    margin-bottom: 0 !important;
+  }
+  .background-image-why{
+    background-image: none !important;
+  }
+  .background-image-why{
+    display: block;
+  }
+  .mobile-fts-heading{
+    text-align:  center !important;
+  }
+  .mobile-high-rated{
+    display: none !important;
+  }
+  #testseries{
+    margin: 0 !important;
+  }
+  .mobile-text-high{
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+  .fts-mobile-col{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .mobile-plan-des{
+    display: block !important;
+  }
+  .mobile-fill-textfield{
+    padding: 10px !important;
+    margin: 0 !important;
+  }
+  .mobile-any-heading{
+    font-size: 26px !important;
+  }
+  .section-title p{
+    font-size:  14px !important;
+    margin-bottom: 30px !important;
+  }
+  .mobile-search{
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #videos{
+    padding: 0 !important;
+  }
+  .footer-second-img{
+    width: 300px !important;
+  }
+  .footer-first-section{
+    text-align: center !important;
+  }
+  .contact-item{
+    text-align: left !important;
+    padding-left: 20px !important;
+  }
+  .footer-img-right{
+    width: -webkit-fill-available !important;
+  }
+  .mobile-boxes{
+    height: 312px !important;
+    overflow: scroll !important;
+  }
+  ::-webkit-scrollbar {
+    width: 7px;
+    /* display: none; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e0e0e0;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .mobile-suggested{
+    margin-left: 0 !important;
   }
 }
